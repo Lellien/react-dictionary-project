@@ -1,0 +1,9 @@
+.Meaning ul {
+  padding: 0 16px 0 30px;
+  list-style-type: decimal;
+}
+
+.Meaning li {
+  margin-bottom: 10px;
+  line-height: 1.2;
+}

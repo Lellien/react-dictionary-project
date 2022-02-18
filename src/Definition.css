@@ -1,0 +1,30 @@
+.Definition-example {
+  opacity: 80%;
+}
+
+.Definition-synonyms,
+.Definition-antonyms {
+  margin-top: 10px;
+}
+
+.Definition-synonyms {
+  margin-bottom: 16px;
+}
+.Definition-synonyms-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Definition-synonym,
+.Definition-antonym {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 3px 8px;
+  margin: 10px 5px 0 0;
+  border-radius: 30px;
+}
+.Definition-similar {
+  color: rgb(3, 109, 3);
+}
+.Definition-opposite {
+  color: rgb(207, 22, 22);
+}
