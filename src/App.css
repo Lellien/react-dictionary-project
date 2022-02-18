@@ -10,3 +10,6 @@
   border-radius: 4px;
   box-shadow: 0px 1px 5px rgb(0 0 0 / 30%);
 }
+.App-footer {
+  margin: 20px 0;
+}
