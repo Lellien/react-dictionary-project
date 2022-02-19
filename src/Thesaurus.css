@@ -1,0 +1,28 @@
+.Thesaurus-synonyms,
+.Thesaurus-antonyms {
+  margin-top: 2px;
+}
+
+.Thesaurus-synonyms {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: baseline;
+}
+.Thesaurus-synonyms-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Thesaurus-synonym,
+.Thesaurus-antonym {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 3px 8px;
+  margin: 10px 5px 0 0;
+  border-radius: 30px;
+}
+.Thesaurus-similar {
+  color: rgb(3, 109, 3);
+}
+.Thesaurus-opposite {
+  color: rgb(207, 22, 22);
+}

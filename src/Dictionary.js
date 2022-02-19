@@ -32,7 +32,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
       </form>
-      <Results results={results} />
+      <Results results={results} newResults={handleResponse} />
     </div>
   );
 }

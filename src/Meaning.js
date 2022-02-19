@@ -11,7 +11,10 @@ export default function Meaning(props) {
         {props.meaning.definitions.map((definition, index) => {
           return (
             <li key={index}>
-              <Definition definition={definition} />
+              <Definition
+                definition={definition}
+                newResults={props.newResults}
+              />
             </li>
           );
         })}

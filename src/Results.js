@@ -8,7 +8,13 @@ export default function Results(props) {
       <div className="Results">
         <h2>{props.results.word}</h2>
         {props.results.meanings.map((meaning, index) => {
-          return <Meaning key={index} meaning={meaning} />;
+          return (
+            <Meaning
+              key={index}
+              meaning={meaning}
+              newResults={props.newResults}
+            />
+          );
         })}
       </div>
     );
