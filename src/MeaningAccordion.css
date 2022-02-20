@@ -1,0 +1,26 @@
+.MeaningAccordion hr {
+  margin: 0 20px;
+}
+
+.MeaningAccordion-header {
+  font-size: 14px;
+}
+.MeaningAccordion-clicker {
+  max-width: 100px;
+  margin: 0 auto 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.125);
+}
+
+.MeaningAccordion-clicker-text {
+  padding: 2px;
+  text-align: center;
+}
+
+.MeaningAccordion-clicker-sign {
+  font-size: 18px;
+  font-weight: 600;
+}

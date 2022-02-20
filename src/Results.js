@@ -1,12 +1,14 @@
 import React from "react";
-
 import Meaning from "./Meaning";
+
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
         <h2>{props.results.word}</h2>
+        <div className="phonetic">{props.results.phonetic}</div>
         {props.results.meanings.map((meaning, index) => {
           return (
             <Meaning
@@ -22,8 +24,3 @@ export default function Results(props) {
     return null;
   }
 }
-
-//   phonetics: response.data[0].phonetics,
-//   wordType: response.data[0].meanings[0].partOfSpeech,
-//   definitions: response.data[0].meanings[0].definitions[0].definition,
-// });
