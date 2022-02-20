@@ -12,7 +12,19 @@ function App() {
         </header>
         <Dictionary />
         <footer className="App-footer">
-          <small>Coded by Yael Fromm</small>
+          <small>
+            This app was coded by{" "}
+            <a href="https://quirky-jang-428adc.netlify.app/" target="/blank">
+              Yael Fromm
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/Lellien/react-dictionary-project"
+              target="/blank"
+            >
+              open sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
