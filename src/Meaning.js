@@ -27,7 +27,7 @@ export default function Meaning(props) {
           }
         })}
       </ul>
-      {props.meaning.definitions.length >= 4 ? (
+      {props.meaning.definitions.length >= 5 ? (
         <MeaningAccordion
           meaning={props.meaning}
           newResults={props.newResults}
