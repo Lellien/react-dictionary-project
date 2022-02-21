@@ -22,7 +22,7 @@ export default function MeaningAccordion(props) {
       </div>
       {show && (
         <div className="MeaningAccordion-body">
-          <ul className="Meaning-definitions">
+          <ul className="Meaning-definitions mt-3">
             {props.meaning.definitions.map((definition, index) => {
               if (index >= 4) {
                 return (

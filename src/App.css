@@ -1,17 +1,43 @@
-.App-header {
-  margin: 30px 0;
+:root {
+  --primary-color: #4599b5;
+  --secondary-color: #fbfcfe;
+  --alt-text-color: #203640;
+}
+
+.App {
+  background: var(--secondary-color);
+  padding: 30px 0;
+}
+
+.App header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.App h1 {
+  margin: 0;
+  color: #212729;
 }
 
 .App-logo {
-  display: block;
-  margin: 0 auto;
-  max-height: 40px;
-  background: #203640;
+  margin-right: 10px;
+  padding: 3px 12px;
+  max-height: 36px;
+  background: var(--alt-text-color);
   border-radius: 4px;
   box-shadow: 0px 1px 5px rgb(0 0 0 / 30%);
 }
 .App-footer {
-  font-size: small;
+  font-size: 12px;
   margin: 40px 0;
   text-align: center;
+}
+.App-footer a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
 }

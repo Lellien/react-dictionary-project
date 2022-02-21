@@ -6,7 +6,7 @@ import "./Meaning.css";
 
 export default function Meaning(props) {
   return (
-    <div className="Meaning">
+    <section className="Meaning">
       <h3 className="Meaning-type">
         <em>{props.meaning.partOfSpeech}</em>
       </h3>
@@ -33,6 +33,6 @@ export default function Meaning(props) {
           newResults={props.newResults}
         />
       ) : null}
-    </div>
+    </section>
   );
 }
