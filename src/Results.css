@@ -2,6 +2,36 @@
   margin: 10px 0 0;
 }
 
+.Results ul.Results-phonetics {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Results ul.Results-phonetics li {
+  padding: 0 25px 0 0;
+}
+
 .Results .phonetic {
   margin-bottom: 10px;
+}
+
+.Phonetic-play-symbol {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
+  background: #ffff;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.125);
+  padding: 6px 7px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+.Phonetic-play-symbol:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+}
+.Phonetic-play-symbol:active {
+  background: #ffff;
 }
