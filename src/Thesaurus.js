@@ -12,37 +12,29 @@ export default function Thesausus(props) {
   let synonyms = props.definition.synonyms ? (
     <div className="Thesaurus-synonyms">
       <span className="Thesaurus-similar">Similar:</span>
-      <span className="Thesaurus-synonyms-list">
+      <ul className="Thesaurus-synonyms-list">
         {props.definition.synonyms.map((synonym, index) => {
           return (
-            <span
-              className="Thesaurus-synonym"
-              key={index}
-              onClick={searchAgain}
-            >
+            <li className="Thesaurus-synonym" key={index} onClick={searchAgain}>
               {synonym}
-            </span>
+            </li>
           );
         })}
-      </span>
+      </ul>
     </div>
   ) : null;
   let antonyms = props.definition.antonyms ? (
     <div className="Thesaurus-antonyms">
       <span className="Thesaurus-opposite">Opposite:</span>
-      <span className="Thesaurus-antonyms-list">
+      <ul className="Thesaurus-antonyms-list">
         {props.definition.antonyms.map((antonym, index) => {
           return (
-            <span
-              className="Thesaurus-antonym"
-              key={index}
-              onClick={searchAgain}
-            >
+            <li className="Thesaurus-antonym" key={index} onClick={searchAgain}>
               {antonym}
-            </span>
+            </li>
           );
         })}
-      </span>
+      </ul>
     </div>
   ) : null;
 

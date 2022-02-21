@@ -5,18 +5,16 @@
   align-items: baseline;
 }
 
-.Thesaurus-synonyms {
-  margin-bottom: 16px;
-}
-
-.Thesaurus-synonyms-list,
-.Thesaurus-antonyms-list {
+.Thesaurus ul.Thesaurus-synonyms-list,
+.Thesaurus ul.Thesaurus-antonyms-list {
+  padding: 0;
   margin-left: 5px;
   display: flex;
-  justify-content: space-evenly;
 }
-.Thesaurus-synonym,
-.Thesaurus-antonym {
+
+.Thesaurus li.Thesaurus-synonym,
+.Thesaurus li.Thesaurus-antonym {
+  width: fit-content;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 3px 8px;
