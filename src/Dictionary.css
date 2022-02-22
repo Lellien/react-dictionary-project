@@ -1,6 +1,7 @@
 .Dictionary h4 {
   font-weight: 400;
   margin-bottom: 10px;
+  font-size: calc(18px + 0.3vw);
 }
 
 .Dictionary section {

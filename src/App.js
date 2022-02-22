@@ -7,14 +7,20 @@ function App() {
     <div className="App">
       <div className="container">
         <header>
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <a href="#portfolio-link">
+            <img src={logo} className="App-logo img-fluid" alt="logo" />
+          </a>
           <h1>Dictionary</h1>
         </header>
         <Dictionary />
         <footer className="App-footer">
           <small>
             This app was coded by{" "}
-            <a href="https://quirky-jang-428adc.netlify.app/" target="/blank">
+            <a
+              id="portfolio-link"
+              href="https://quirky-jang-428adc.netlify.app/"
+              target="/blank"
+            >
               Yael Fromm
             </a>{" "}
             and is{" "}

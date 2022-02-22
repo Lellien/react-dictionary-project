@@ -1,5 +1,6 @@
 :root {
   --primary-color: #4599b5;
+  --primary-color-rgb: 69, 153, 181;
   --secondary-color: #fbfcfe;
   --alt-text-color: #203640;
 }
@@ -32,6 +33,7 @@
   margin: 40px 0;
   text-align: center;
 }
+
 .App-footer a {
   font-weight: 600;
   text-decoration: none;
@@ -40,4 +42,21 @@
 
 .App-footer a:hover {
   text-decoration: underline;
+}
+
+.App-footer a#portfolio-link:target {
+  animation: flash 4s forwards 0.4s;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+@keyframes flash {
+  from {
+    background: white;
+  }
+
+  to {
+    background: #203640;
+    color: white;
+  }
 }
