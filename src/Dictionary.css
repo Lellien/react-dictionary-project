@@ -33,3 +33,14 @@
   outline: none;
   box-shadow: 0 0 0 0.25rem rgb(13 193 253 / 25%);
 }
+
+@media (max-width: 500px) {
+  .Dictionary h4 {
+    font-size: calc(15px + 0.3vw);
+    text-align: center;
+  }
+  .Dictionary input,
+  .Dictionary input::placeholder {
+    text-align: center;
+  }
+}

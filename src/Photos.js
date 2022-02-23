@@ -9,7 +9,7 @@ export default function Photos(props) {
             let photoAlt = photo.alt;
             let photographer = photo.photographer;
             return (
-              <div className="col-4" key={index}>
+              <div className="col-6 col-sm-4" key={index}>
                 <a href={photo.src.original} target="/blank">
                   <img
                     className="img-fluid"

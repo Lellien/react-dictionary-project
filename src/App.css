@@ -60,3 +60,9 @@
     color: white;
   }
 }
+@media (max-width: 500px) {
+  .App header {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}

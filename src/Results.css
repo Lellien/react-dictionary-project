@@ -1,15 +1,32 @@
 .Results h2 {
-  margin-bottom: 8px;
   font-weight: 600;
+  margin: 0;
 }
 
 .Results ul.Results-phonetics {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
 }
 
 .Results ul.Results-phonetics li {
   padding: 0 25px 0 0;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+@media (max-width: 500px) {
+  .Results h2 {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .Results ul.Results-phonetics {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .Results ul.Results-phonetics li {
+    padding: 0 5px 0 0;
+    margin-top: 5px;
+  }
 }
