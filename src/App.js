@@ -18,7 +18,7 @@ function App() {
             This app was coded by{" "}
             <a
               id="portfolio-link"
-              href="https://peaceful-hugle-11a384.netlify.app/work"
+              href="https://peaceful-hugle-11a384.netlify.app/"
               target="/blank"
             >
               Yael Fromm
